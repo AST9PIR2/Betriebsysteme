@@ -1,0 +1,3 @@
+/tmp/bakery/cmake-build-debug/CMakeFiles/bakery.dir
+/tmp/bakery/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/bakery/cmake-build-debug/CMakeFiles/rebuild_cache.dir

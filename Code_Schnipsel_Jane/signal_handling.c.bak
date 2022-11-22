@@ -1,0 +1,45 @@
+#include <signal.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <errno.h>
+
+// Das ist der Signal-Handler
+ void my_signal_handler(int signum) {
+	 printf("Handling Signal %d\n", signum);
+ }
+
+
+int main() {
+	// Erzeuge die sigaction Struktur
+	struct sigaction my_signal;
+
+	// BefÃ¼lle die sigaction Struktur
+	// Im einfachsten Fall speichert man den Signal-Handler im Feld sa_handler,
+	// ruft sigemptyset mit sa_mask auf und setzt sa_flags 0.
+	my_signal.sa_handler = my_signal_handler;
+	sigemptyset (&my_signal.sa_mask);
+	my_signal.sa_flags = 0;
+
+	// Registriere den Signal-Handler fÃ¼r die Signale SIGUSR1 und SIGUSR2
+	// Man kann nun den Signal-Handler auslÃ¶sen indem man "kill -USR1 <pid>" bzw. "kill -USR2 <pid>"
+	// in die Konsole eingibt.
+	if (sigaction(SIGUSR1, &my_signal, NULL) != 0) {
+		perror("Fehler beim Registrieren des Signal-Handlers");
+		exit(1);
+	}
+	if (sigaction(SIGUSR2, &my_signal, NULL) != 0) {
+		perror("Fehler beim Registrieren des Signal-Handlers");
+		exit(1);
+	}
+
+	// Wir geben die PID aus, damit der Benutzer weiss, welche PID er fÃ¼r den "kill" Befehl verwenden muss
+	printf("Meine PID ist %d\n", getpid());
+
+	// Wir lassen den Prozess die ganze Zeit schlafen, damit er sich nicht beendet.
+	// Uns interessiert nur das Signal-Handling.
+	while (1) {
+		sleep(1);
+	}
+
+	return 0;
+}

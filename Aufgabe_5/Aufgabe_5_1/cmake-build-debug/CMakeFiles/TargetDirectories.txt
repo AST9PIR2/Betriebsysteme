@@ -1,0 +1,3 @@
+/tmp/tmp.yNan98vIiO/cmake-build-debug/CMakeFiles/Aufgabe_5_1.dir
+/tmp/tmp.yNan98vIiO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.yNan98vIiO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

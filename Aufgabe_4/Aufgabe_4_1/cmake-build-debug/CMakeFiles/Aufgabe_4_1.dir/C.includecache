@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.jd4fnFFv4Z/consumerproducer.c
+stdlib.h
+-
+stdio.h
+-
+pthread.h
+-
+sys/types.h
+-
+string.h
+-
+unistd.h
+-
+

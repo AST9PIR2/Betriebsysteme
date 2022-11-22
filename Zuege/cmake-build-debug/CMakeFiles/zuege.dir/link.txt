@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/zuege.dir/main.c.o -o zuege  /usr/lib/x86_64-linux-gnu/librt.so 

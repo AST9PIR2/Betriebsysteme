@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/Aufgabe_6_5.dir/bankingsystem.c.o -o Aufgabe_6_5  /usr/lib/x86_64-linux-gnu/librt.so 

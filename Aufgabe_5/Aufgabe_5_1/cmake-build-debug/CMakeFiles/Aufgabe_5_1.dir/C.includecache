@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.yNan98vIiO/myShellPiping.c
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+errno.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+

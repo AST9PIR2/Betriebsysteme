@@ -1,0 +1,3 @@
+/tmp/tmp.UxLyZKHMGR/barrier/cmake-build-debug/CMakeFiles/Code_Schnipsel_Jane.dir
+/tmp/tmp.UxLyZKHMGR/barrier/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.UxLyZKHMGR/barrier/cmake-build-debug/CMakeFiles/rebuild_cache.dir

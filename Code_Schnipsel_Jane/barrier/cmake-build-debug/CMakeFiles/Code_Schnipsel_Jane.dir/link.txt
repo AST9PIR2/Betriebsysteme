@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/Code_Schnipsel_Jane.dir/barrier.c.o -o Code_Schnipsel_Jane  /usr/lib/x86_64-linux-gnu/librt.so 

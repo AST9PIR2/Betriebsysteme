@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g -rdynamic CMakeFiles/bakery.dir/main.c.o -o bakery  -lrt 

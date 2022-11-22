@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Aufgabe_6_1.dir/main.c.o -o Aufgabe_6_1 

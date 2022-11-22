@@ -1,0 +1,1 @@
+/usr/bin/cc  -pthread -g CMakeFiles/Aufgabe_4_2.dir/ichmagzuege.c.o -o Aufgabe_4_2 

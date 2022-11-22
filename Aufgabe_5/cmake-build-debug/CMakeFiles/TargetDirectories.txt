@@ -1,0 +1,3 @@
+/tmp/Aufgabe_5/cmake-build-debug/CMakeFiles/Aufgabe_1.dir
+/tmp/Aufgabe_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/Aufgabe_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

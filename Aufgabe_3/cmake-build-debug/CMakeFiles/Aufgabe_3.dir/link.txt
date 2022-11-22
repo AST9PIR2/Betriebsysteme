@@ -1,0 +1,1 @@
+/usr/bin/cc  -pthread -g CMakeFiles/Aufgabe_3.dir/Aufgabe_3_1/matrix.c.o -o Aufgabe_3 

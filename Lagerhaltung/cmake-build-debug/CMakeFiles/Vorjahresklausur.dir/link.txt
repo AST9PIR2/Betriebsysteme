@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/Vorjahresklausur.dir/main.c.o -o Vorjahresklausur  /usr/lib/x86_64-linux-gnu/librt.so 

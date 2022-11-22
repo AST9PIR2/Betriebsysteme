@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/untitled.dir/client.c.o -o untitled  /usr/lib/x86_64-linux-gnu/librt.so 

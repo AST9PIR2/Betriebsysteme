@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/Aufgabe_6_5/bankingsystem.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+sys/stat.h
+-
+sys/wait.h
+-
+unistd.h
+-
+pthread.h
+-
+unistd.h
+-
+

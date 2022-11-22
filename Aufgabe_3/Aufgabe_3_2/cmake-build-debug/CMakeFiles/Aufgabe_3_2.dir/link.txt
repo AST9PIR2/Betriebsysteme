@@ -1,0 +1,1 @@
+/usr/bin/cc  -pthread -g CMakeFiles/Aufgabe_3_2.dir/atomic.c.o -o Aufgabe_3_2 

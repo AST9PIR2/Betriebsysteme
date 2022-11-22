@@ -1,0 +1,3 @@
+/mnt/c/Users/Pirmin.000/OneDrive - mci4me.at/Dokumente/3_Semester/Betriebssysteme/zuege/cmake-build-debug/CMakeFiles/zuege.dir
+/mnt/c/Users/Pirmin.000/OneDrive - mci4me.at/Dokumente/3_Semester/Betriebssysteme/zuege/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Pirmin.000/OneDrive - mci4me.at/Dokumente/3_Semester/Betriebssysteme/zuege/cmake-build-debug/CMakeFiles/rebuild_cache.dir

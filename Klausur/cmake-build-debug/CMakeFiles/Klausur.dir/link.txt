@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/Klausur.dir/factory.c.o -o Klausur  /usr/lib/x86_64-linux-gnu/librt.so 

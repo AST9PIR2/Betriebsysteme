@@ -1,0 +1,1 @@
+/usr/bin/cc  -lrt -pthread -g CMakeFiles/Spielwiese.dir/main.c.o CMakeFiles/Spielwiese.dir/circularbuffer.c.o -o Spielwiese  /usr/lib/x86_64-linux-gnu/librt.so 

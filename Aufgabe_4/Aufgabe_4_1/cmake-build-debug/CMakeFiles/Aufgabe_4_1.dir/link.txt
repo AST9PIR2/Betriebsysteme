@@ -1,0 +1,1 @@
+/usr/bin/cc  -pthread -g CMakeFiles/Aufgabe_4_1.dir/consumerproducer.c.o -o Aufgabe_4_1 

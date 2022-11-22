@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.d7krL8mW2O/client.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+sys/stat.h
+-
+sys/wait.h
+-
+unistd.h
+-
+pthread.h
+-
+

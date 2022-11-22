@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.SxTvahMtYu/ichmagzuege.c
+pthread.h
+-
+stdio.h
+-
+semaphore.h
+-
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+

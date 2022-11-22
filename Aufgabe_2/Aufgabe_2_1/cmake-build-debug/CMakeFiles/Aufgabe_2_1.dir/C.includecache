@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.T2lOO827V5/main.c
+stdio.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+errno.h
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+pthread.h
+-
+
